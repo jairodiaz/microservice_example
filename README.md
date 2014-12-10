@@ -9,12 +9,12 @@ http://www.rabbitmq.com/install-homebrew.html
 
 == Execution
 
-brew install rabbitmq
-rabbitmq-server
-  #Admin: guest
-  #Password: guest
+    brew install rabbitmq
+    rabbitmq-server
+      #Admin: guest
+      #Password: guest
 
-rabbitmqctl list_users
+    rabbitmqctl list_users
 
-ruby rental_offer/rental_offer_need.rb 127.0.0.1 guest
-ruby rental_offer/rental_offer_monitor.rb 127.0.0.1 guest
+    ruby rental_offer/rental_offer_need.rb 127.0.0.1 guest
+    ruby rental_offer/rental_offer_monitor.rb 127.0.0.1 guest
